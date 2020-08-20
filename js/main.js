@@ -1,12 +1,14 @@
-let countrydiv = document.getElementById('country')
-countrydiv.textContent = "searching"
+let countrydiv = document.getElementById("country");
+countrydiv.textContent = "searching";
 
-let ip_info = {}
+let ip_info = {};
 const ip_promise = fetch("https://freegeoip.app/json/");
-ip_promise.then(response => {
-  return response.json();
-}).then(data => {
-    ip_info = data
+ip_promise
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    ip_info = data;
     /* FORMAT of IP INFO
     city: "Arbucies"
     country_code: "ES"
@@ -19,24 +21,26 @@ ip_promise.then(response => {
     region_name: "Catalonia"
     time_zone: "Europe/Madrid"
     zip_code: "17401" */
-    countrydiv.textContent = `${ip_info.city}, ${ip_info.country_name}`
+    countrydiv.textContent = `${ip_info.city}, ${ip_info.country_name}`;
     const fetchPromise5 = fetch(
-    "https://api.openweathermap.org/data/2.5/weather?lat=" +
-    ip_info.latitude +
-    "&lon="+
-    ip_info.longitude +
-    "&appid=1866411b5b586495c200d03f6cfa7a77");
-    fetchPromise5.then(response => {
+      "https://api.openweathermap.org/data/2.5/weather?lat=" +
+        ip_info.latitude +
+        "&lon=" +
+        ip_info.longitude +
+        "&appid=1866411b5b586495c200d03f6cfa7a77"
+    );
+    fetchPromise5
+      .then((response) => {
         return response.json();
-    }).then(data => {
-        console.log(data)
-        console.log(data.weather[0].description)
-    })
-})
-console.log(ip_info)
-
+      })
+      .then((data) => {
+        console.log(data);
+        console.log(data.weather[0].description);
+      });
+  });
+console.log(ip_info);
 
 const fetchPromise3 = fetch("https://api.wheretheiss.at/v1/satellites/25544");
-fetchPromise3.then(response => {
+fetchPromise3.then((response) => {
   console.log(response.json());
-})
+});
