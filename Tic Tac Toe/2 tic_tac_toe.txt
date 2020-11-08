@@ -1,0 +1,42 @@
+Concepts:
+
+- Arrays as game state
+- Conditionals
+	- comparing arrays and sub arrays
+	- executing code after every update and checking win conditions
+- canvas element
+- coordinates
+- event listener, mouse position / dom element
+
+https://github.com/iansedano/js_tictactoe/blob/master/script.js
+
+
+Approaches:
+
+- canvas
+- dom elements
+- dynamically creating dom elements
+- object oriented
+- flood-fill
+- win conditions
+
+STAGE 1:
+
+- console
+- game logic with win conditions
+
+STAGE 2:
+
+- webpage
+- dom elements
+- event listener
+
+STAGE 3:
+
+- canvas element
+
+STAGE 4:
+
+- game logic with floodfill
+- tictactoe with 4 x 4 or 5 x 5 or 10 x 10
+- connect 4

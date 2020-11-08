@@ -1,0 +1,44 @@
+Concepts:
+
+- operators
+- functions
+- higher order functions
+- DOM
+- API calls? Weather or time??
+
+
+Approaches/possible features:
+
+- term 1, term 2
+- keeping history of insert (stack?)
+- format displays
+- operation display
+
+
+STAGE 1:
+- console
+- functions
+- design and flowchart
+
+STAGE 2:
+- website
+	- updating display
+- debugging
+	- handling .
+	- handling divide by 0
+	- handle keyboard input
+
+STAGE 3:
+- adding conversions
+	- mortgage calculator
+	- C to F
+	- Dollar to Euro (API)
+- custom functions
+- trigonometry
+
+STAGE 4:
+- multiplication game
+- division game
+
+
+https://jsbeginners.com/javascript-height-converter-project/ // https://jsbeginners.com/basic-javascript-calculator/ // https://jsbeginners.com/javascript-bmi-calculator-project/  //  https://jsbeginners.com/mortgage-loan-javascript-calculator/ https://codepen.io/cphemm/pen/reNwWd // https://jsbeginners.com/javascript-tip-percent-calculator/ 

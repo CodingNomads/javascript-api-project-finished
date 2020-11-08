@@ -1,0 +1,69 @@
+Concepts:
+
+- variables
+- DOM manipulation
+- CSS manipulation
+- user input
+- event listener
+
+
+Stage 1 - basic background color changing
+	- Basic set up
+		html, css, js
+	- dom and css manipulation
+	- user input - text box, or buttons with color names
+	- event listener - to change when buttons are pressed
+	
+Stage 2 - using arrays and cycling through them
+	- creating color arrays
+	- timing and wait
+	- random
+	- for loops
+	- while loops
+	- mouse position event listener
+	- assigning them to different buttons.
+	
+Stage 3 - guessing game
+	- Console version
+		- basic variables
+		- more user input
+		- While Loop
+		- If Else Statements
+	- Adapt to webpage
+		- more event listeners
+		- buttons for different effects
+		- preset styles
+		- more text boxes
+	- CROSSOVER
+		- add to portfolio site!
+
+Stage 4 - reaction game
+	- Console version
+		- timing
+		- response
+		- storing information in array
+		- printing
+	- Adapt to webpage
+		- start game
+		- different effects for start
+		- different effect for press
+		- effect for beating x score
+		- effect for beating best
+		- storing high score information as cookie - Web Storage API 
+
+Stage 5 - color picker tool
+
+https://jsbeginners.com/javascript-color-change-app/
+https://jsbeginners.com/hex-change-background-color-project/  
+
+
+GUESSING GAME
+https://github.com/romeojeremiah/number-guessing-game/blob/master/app.js
+
+
+https://jsbeginners.com/javascript-number-guessing-game/
+
+
+REACTION GAME
+
+https://jsbeginners.com/circle-click-javascript-game/ 
